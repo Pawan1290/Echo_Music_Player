@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:id="@+id/myImage"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/joey" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:id="@+id/firstLine"
+        android:text="This app is made by Pawan Gupta as"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstLine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:textSize="18dp"
+        android:id="@+id/secondLine"
+        android:text="part of Internshala Online Android"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondLine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:textSize="18dp"
+        android:id="@+id/thirdLine"
+        android:text="Training project."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thirdLine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:textSize="18dp"
+        android:id="@+id/forthLine"
+        android:text="App version 1.0"/>
+
+
+</RelativeLayout>
